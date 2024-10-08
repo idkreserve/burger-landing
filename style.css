@@ -67,6 +67,41 @@ header .container {
     padding: 0 15px;
 }
 
+.card-text {
+    max-width: 360px;
+}
+
+.card-text__title {
+    margin-bottom: 24px;
+    font-size: 44px;
+}
+
+.card-text__description {
+    margin-bottom: 13px;
+    opacity: .7;
+}
+
+.card-text__price {
+    color: #F6762C;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: .1em;
+}
+
+.card-text__price + .card-text__price {
+    margin-left: 3px;
+}
+
+.card-text__price--old {
+    font-size: 16px;
+    opacity: .5;
+    text-decoration: line-through;
+}
+
+.card-text .link-button {
+    margin-top: 10px;
+}
+
 .header__list {
     display: flex;
     gap: 28px;
@@ -168,41 +203,6 @@ header .container {
     justify-content: space-between;
     align-items: center;
     padding-right: 90px;
-}
-
-.order__text {
-    max-width: 360px;
-}
-
-.order__title {
-    margin-bottom: 24px;
-    font-size: 44px;
-}
-
-.order__description {
-    margin-bottom: 13px;
-    opacity: .7;
-}
-
-.order__price {
-    color: #F6762C;
-    font-size: 20px;
-    font-weight: 500;
-    letter-spacing: .1em;
-}
-
-.order__price + .order__price {
-    margin-left: 3px;
-}
-
-.order__price--old {
-    font-size: 16px;
-    opacity: .5;
-    text-decoration: line-through;
-}
-
-.order .link-button {
-    margin-top: 10px;
 }
 
 @keyframes slideRight {
