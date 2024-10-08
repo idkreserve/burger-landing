@@ -46,6 +46,12 @@ h6 {
     text-transform: uppercase;
 }
 
+.link-button--small {
+    font-size: 12px;
+    width: 140px;
+    height: 40px;
+}
+
 .link-button:hover {
     opacity: .8;
 }
@@ -76,6 +82,10 @@ header .container {
     font-size: 44px;
 }
 
+.card-text__title--small {
+    font-size: 30px;
+}
+
 .card-text__description {
     margin-bottom: 13px;
     opacity: .7;
@@ -86,6 +96,10 @@ header .container {
     font-size: 20px;
     font-weight: 500;
     letter-spacing: .1em;
+}
+
+.card-text__price--small {
+    font-size: 16px;
 }
 
 .card-text__price + .card-text__price {
@@ -203,6 +217,52 @@ header .container {
     justify-content: space-between;
     align-items: center;
     padding-right: 90px;
+}
+
+.product {
+    padding-top: 150px;
+}
+
+.product .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.product__card {
+    width: 555px;
+    height: 300px;
+    box-sizing: border-box;
+}
+
+.product__card {
+    width: 555px;
+    height: 300px;
+    box-sizing: border-box;
+}
+
+.product__card:nth-child(even) > .product__card-text {
+    padding-left: 60px;
+}
+
+.product__card-text {
+    padding: 60px 30px 60px 290px;
+}
+
+.card-queen {
+    background: url('img/product-1.jpg') no-repeat;
+}
+
+.card-pizza {
+    background: url('img/product-2.jpg') no-repeat;
+}
+
+.card-burger {
+    background: url('img/product-3.jpg') no-repeat;
+}
+
+.card-papa {
+    background: url('img/product-4.jpg') no-repeat;
 }
 
 @keyframes slideRight {
